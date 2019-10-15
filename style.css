@@ -1,0 +1,294 @@
+/*
+Theme Name: Bazar Dasli
+Theme URI: http://www.franciscomatelli.com
+Description: Tema desenvolvido para o portal virtual Bazar Dasli por Francisco Matelli
+Version: 2 (WP2.7.1)
+Author: Francisco Matelli
+Author URI: http://www.franciscomatelli.com
+Tags: francisco, matelli, francisco matelli, bazar dasli, dasli
+*/
+
+@import "style/css/reset.css";
+@import "style/css/typography.css";
+@import "style/css/layout.css";
+
+/*  */
+/* 1 Forma posicao */
+/*  */
+/* 1.1 Tudo */
+*{
+	margin:0;
+	padding:0;
+}
+/* 1.2 Header */
+div#header {
+	margin:0 auto;
+	height:70px;
+	width:865px;
+}
+/* 1.2.1 Imagem */
+div#header img {
+	margin:5px 0 0 35px;
+}
+
+/* 1.2.2 Menu */
+div#menu {
+	margin:auto;
+	width:865px;
+	height:50px;
+}
+div#menu ul {
+	/*width:865px;
+	margin:auto;*/
+	background-color:#CC00CC;
+}
+div#menu ul li {
+	height:30px;
+	float:left;
+	padding:0px 10px 0px 10px;
+	/*margin-left:2px;*/
+	line-height:30px;
+}
+/* 1.3 Meio */
+div.meio {
+	position:relative;
+	/*display:table;*/
+	width:865px;
+	margin:auto;
+}
+div#meio-index {
+	background:url(style/images/index-fundo.png) #FFF no-repeat;
+	height:520px;
+}
+div#meio-index div#menu {
+	width:800px;
+	position:absolute;
+	margin:auto;
+	bottom:20px;
+	left:25px;
+}
+div#meio-index img {
+	height:200%;
+}
+/* 1.3.1 Conteúdo */
+div#conteudo {
+	float:left;
+	/*display:table-cell;*/
+	width:624px;
+}
+div#conteudo div#cortina {
+	height:140px;
+	width:630px;
+}
+/* 1.3.2 Sidebar */
+div#sidebar {
+	float:right;
+	/*display:table-cell;*/
+	width:235px;
+}
+div#sidebar ul li { padding:0px 0px 10px 0px;}
+div#sidebar ul li a {padding:10px 0;}
+/* 1.4 Footer */
+div#footer {
+	clear:both;
+	margin:0 auto;
+	height:70px;
+	width:865px;
+}
+div#footer-fm {
+	width:705px;
+	margin:auto;
+}
+div#footer-fm #f5logo{
+	width:100px;
+	height:40px;
+	background:url(style/f5sites/f5sites-logo-100x40-internet-cinza.png) no-repeat;
+}
+div#footer-fm #f5logo:hover {background:url(style/f5sites/f5sites-logo-100x40-internet.png) no-repeat;}
+/*  */
+/* 2 Design */
+/*  */
+/* 2.1 Tudo */
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	list-style:none;
+	text-decoration:none;
+}
+body {
+	background:#FF9B37;
+}
+/* 2.2 Header */
+div#header {
+	background:url(style/images/header-fundo.jpg) no-repeat #FF9B37;
+	border-bottom:2px solid #FF9B37;
+}
+/* 1.2.1 Imagem */
+div#header img {}
+
+/* 1.2.2 Menu */
+div#menu {
+	background-color:#FFFFFF;
+}
+div#menu ul li {
+}
+
+div#menu ul li a {
+	font-family:Segoe;
+	color:#FF9B37;
+	font-size:24px;
+	line-height:50px;
+}
+
+div#menu ul li:hover {
+}
+
+/* 2.3 Meio */
+div.meio {
+	border-top:6px solid #FF9B37;
+}
+/* 2.3.1 Conteúdo */
+div#conteudo {
+	background-color:#FFFFFF;
+}
+div#conteudo a{
+	color:#EA2E27;
+}
+div#conteudo h1{
+	margin:5px 0 15px 0;
+	line-height:30px;
+	color:#EA2E27;
+	font-size:24px;
+	background:url(style/images/list-style-flor.png) no-repeat center left;
+	padding-left:35px;
+}
+/*div#conteudo h1.post-titulo {
+	background:url(style/images/list-style-flor.png) no-repeat;
+	padding-left:35px;
+}*/
+div#conteudo h2 {
+	color:#EA2E27;
+	font-size:18px;
+}
+div#conteudo h3 {
+	color:#FF9B37;
+	font-size:12px;
+}
+div#conteudo hr {
+	background:url(style/images/hr-fundo.gif) center top no-repeat;
+	height:20px;
+	width:100%;
+	border:0px hidden #FF9B37;
+	/*margin:50px 0 5px 0;*/
+}
+div#conteudo div#cortina {
+	background:url(style/images/cortina-pequena.png) no-repeat;
+}
+div#conteudo div.post {
+	padding:0 20px 0 20px;
+}
+/* 2.3.2 Comentário */
+#comentario_unico li {
+	background-color:#F5F5F5;
+	margin-bottom:20px;
+	padding:10px;
+}
+/* 2.3.2 Sidebar */
+div#sidebar {
+	/*border-left:4px solid #FF9B37;
+	border-top:6px solid #FF9B37;*/
+	background-color:#FFFFFF;
+}
+div#sidebar p{
+	color:#FF9B37;
+	font-size:12px;
+}
+div#sidebar h2 {
+	/*margin:15px 0 15px 0;*/
+	padding:5px;
+	color:#FFF;
+	font-size:24px;
+	background:url(style/images/list-style-flor.png) no-repeat #FF9B37 center left;
+	padding-left:35px;
+}
+div#sidebar a{
+	color:#EA2E27;
+	font-size:12px;
+}
+div#sidebar ul li ul{
+	padding:10px;
+}
+/* 2.4 Footer */
+div#footer {
+	background:url(style/images/footer-fundo.jpg) no-repeat #FF9B37;
+	border-top:2px solid #FF9B37;
+}
+div#footer-fm, div#footer-fm a {
+	color:#FFFFFF;
+	font-size:12px;
+}
+div#footer-fm a {
+	font-weight:bold;
+}
+div#footer-fm a:hover{
+	color:#006699;
+}
+/* Outros */
+/* Massacotes */
+#mascote {
+	position:absolute;
+	left:-200px;
+}
+
+/* WIDGETS */
+/* Contact Forms 7 */
+.wpcf7-form input {
+	margin-bottom:20px;
+}
+
+/* Wp Shopping Cart */
+#widgetshoppingcart {
+	padding:10px;
+}
+#widgetshoppingcart p {
+	color:#FF9B37;
+	padding:4px 0;
+}
+div#widgetshoppingcart a,
+span.cartcount {
+	padding:5px;
+	color:#EA2E27;
+	font-size:14px;
+	font-weight:bold;
+}
+/* carrinho cheio */
+span.numberitems {
+	color:#FF9B37;
+}
+div#widgetshoppingcart table.shoppingcart {
+	color:#EA2E27;
+}
+table.shoppingcart th {
+	color:#FF9B37;
+}
+div#widgetshoppingcart table.shoppingcart a {
+	font-size:12px;
+}
+span.totalhead, 
+span.discounthead, 
+span.subtotalhead, 
+span.postagehead, 
+span.taxhead {
+	color:#FF9B37;
+	margin:5px;
+}
+span.total {
+	margin:10px 0px 10px -5px;
+}
+span.pricedisplay {
+	color:#EA2E27;
+	white-space:nowrap;
+}
+span.gocheckout {
+	padding:10px 0px;
+}
+
